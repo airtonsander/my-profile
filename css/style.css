@@ -1,0 +1,40 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 20 px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sidebar {
+    text-align: center;
+    background-color: #083b72;
+    color: #ffffff;       /*  Cor do texto dentro do sidebar */
+    padding: 20px;
+    width: 100%;           /*  Largura da sidebar */
+    max-width: 220px;         
+    height: 870px;          /*  Altura. da sidebar */
+}
+
+.sidebar img {
+    border-radius: 50%;    /*  Deixa com borda circular */
+    width: 100%;           /*  A largura da img */  
+    max-width: 200px;   
+    height: auto;          /*  A Altura. da img */
+    object-fit: cover;
+    margin-bottom: 20px;
+} 
+.sidebar h1 {
+    font-size: 25px;        /*  Tamnho do Texto do H1 */    
+    margin-top: 0px;        /*  Joga a escrita do H1 mais pra cima */
+}
+
+.content {
+    flex: 1;
+    width: 100%;
+    max-width: calc(100% - 250px);
+}
