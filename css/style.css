@@ -1,6 +1,12 @@
 /* Google Font Import - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+:root {
+    --sidebar-color: #083b72;
+    --sidebar-text: #ffffff; 
+
+}
+
 body {
     margin: 0;
     padding: 20 px;
@@ -12,8 +18,8 @@ body {
 
 .sidebar {
     text-align: center;
-    background-color: #083b72;
-    color: #ffffff;       /*  Cor do texto dentro do sidebar */
+    background-color: var(--sidebar-color);
+    color: var(--sidebar-text);   /*  Cor do texto dentro do sidebar */
     padding: 20px;
     width: 100%;           /*  Largura da sidebar */
     max-width: 220px;         
@@ -37,4 +43,33 @@ body {
     flex: 1;
     width: 100%;
     max-width: calc(100% - 250px);
+}
+
+
+
+
+
+
+
+
+
+
+.dados-pessoais {
+    font-size: 18px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+.dados-pessoais i {
+    margin-right: 5px;
+    font-size: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+  }
+.valor {
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;           /*  Largura da sidebar */
+    max-width: 160px;
+    color: var(--sidebar-text);
+    text-decoration: none;     /*  Remove o Sublinhado do texto */ 
 }
