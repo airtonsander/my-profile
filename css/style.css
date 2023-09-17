@@ -35,7 +35,7 @@ body {
     margin-bottom: 20px;
 } 
 .sidebar h1 {
-    font-size: 25px;        /*  Tamnho do Texto do H1 */    
+    font-size: 20px;        /*  Tamnho do Texto do H1 */    
     margin-top: 0px;        /*  Joga a escrita do H1 mais pra cima */
 }
 
@@ -46,6 +46,34 @@ body {
 }
 
 
+
+.redes-sociais {
+    margin-top: 0%;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 35px;
+
+}
+
+
+.botao-github {
+    color: #131517; /* Cor do GitHub */
+}
+.botao-email {
+    color: #ffffff; /* Cor do E-mail */
+}
+.botao-whatsapp {
+    color: #1bb554; /* Cor oficial do WhatsApp */
+}
+.botao-instagram {
+    color: #e516a3; /* Cor do Instagram */
+}
+.botao-facebook {
+    color: #ffffff; /* Cor do Facebook */
+}
 
 
 
